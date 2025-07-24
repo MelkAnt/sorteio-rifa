@@ -9,7 +9,15 @@ const participantes = [
 ];
 
 function sortear() {
-  const sorteado = participantes[Math.floor(Math.random() * participantes.length)];
   const resultado = document.getElementById('resultado');
-  resultado.textContent = `Número ${sorteado.numero}: ${sorteado.nome} 🎉`;
+  const spinner = document.getElementById('spinner');
+
+  resultado.textContent = "Sorteando...";
+  spinner.style.display = "block";
+
+  setTimeout(() => {
+    const sorteado = participantes[Math.floor(Math.random() * participantes.length)];
+    resultado.textContent = `Número ${sorteado.numero}: ${sorteado.nome} 🎉`;
+    spinner.style.display = "none";
+  }, 2000); // 2 segundos
 }
