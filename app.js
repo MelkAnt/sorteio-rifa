@@ -1,10 +1,10 @@
 // script.js
 const participantes = [
-  { numero: 1, nome: "Maria" },
-  { numero: 2, nome: "João" },
-  { numero: 3, nome: "Pedro" },
-  { numero: 4, nome: "Ana" },
-  { numero: 5, nome: "Lucas" },
+  { numero: 19, nome: "Tia Betinha" },
+  { numero: 110, nome: "catatau" },
+  { numero: 125, nome: "Luciana" },
+  { numero: 153, nome: "Prof. Grazia" },
+  { numero: 2, nome: "Marcela" },
   // Adicione quantos quiser
 ];
 
